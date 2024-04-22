@@ -19,7 +19,7 @@ let answer= await inquirer.prompt(
     },
     {
         name:"to",
-        message:"Enter to Currency",
+        message:"Enter to your  Currency",
         type:"list",
         choices:["USD","PKR","INR","GBP","EUR"]
     },
